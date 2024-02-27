@@ -15,7 +15,7 @@
 ## Docker部署
 
 ```bash
-docker run -d -p 8000:8000 --name watermark funnyzak/watermark:latest
+docker run -d -p 80:80 --name watermark funnyzak/watermark:latest
 ```
 
 ## Development

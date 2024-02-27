@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "TS_CONFIG_PATHS_PLUGIN=none roadhog server",
-    "build": "roadhog build"
+    "build": "TS_CONFIG_PATHS_PLUGIN=none roadhog build"
   },
   "dependencies": {
     "dva": "^2.1.0",

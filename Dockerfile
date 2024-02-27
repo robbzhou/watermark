@@ -1,4 +1,4 @@
-FROM node:14.21.3-buster-slim
+FROM node:14.21.3-buster-slim AS build
 
 WORKDIR /app
 
@@ -6,6 +6,14 @@ COPY . .
 
 RUN yarn
 
-EXPOSE 8000
+RUN yarn build
 
-CMD [ "yarn", "start" ]
+FROM nginx:1.25.4-alpine3.18 as prod
+
+COPY --from=build /app/dist /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+
+
