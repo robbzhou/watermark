@@ -7,17 +7,17 @@
 在线纯前端图片加水印, 拒绝上传保证个人信息安全。
 用来在各种证件上添加 **”仅用于办理XXXX，他用无效。”**，防止证件被他人盗用！
 
-## 预览
+## Deploy Via Docker
+
+```bash
+docker run -d -p 3000:80 --name watermark funnyzak/watermark:latest
+```
+
+## Preview
 
 在线使用：[https://watermark.yycc.dev](https://watermark.yycc.dev)
 
 ![预览](https://cdn.jsdelivr.net/gh/funnyzak/watermark/.github/assets/preview.png)
-
-## Docker部署
-
-```bash
-docker run -d -p 80:80 --name watermark funnyzak/watermark:latest
-```
 
 ## Development
 
@@ -30,9 +30,9 @@ git clone git@github.com:funnyzak/watermark.git && cd watermark
 yarn && yarn start
 ```
 
-## CopyRight
+## Copyright
 
-Powered by [dxcweb/watermark](https://github.com/dxcweb/watermark)
+Developed by [dxcweb/watermark](https://github.com/dxcweb/watermark)
 
 [build-status-image]: https://github.com/funnyzak/watermark/actions/workflows/docker_build.yml/badge.svg
 [build-status]: https://github.com/funnyzak/watermark/actions
