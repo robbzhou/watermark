@@ -1,27 +1,34 @@
-# watermark
-- [在线纯前端图片加水印](http://watermark.dxcweb.com/)
-- 最安全，最快速的纯前端图片加水印，拒绝上传保证个人信息安全。
-- 纯前端canvas加水印，开源代码
+# Watermark
+  
+  [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/watermark)](https://hub.docker.com/r/funnyzak/watermark/tags)
+  [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/funnyzak/watermark)](https://hub.docker.com/r/funnyzak/watermark/tags)
+  
+在线纯前端图片加水印, 拒绝上传保证个人信息安全。
+用来在各种证件上添加 **”仅用于办理XXXX，他用无效。”**，防止证件被他人盗用！
 
-## 主要用途
-在各种证件上添加“仅用于办理XXXX，他用无效。”，防止证件被他人盗用！<br/>
-[新闻：身份证复印件被盗用所造成的损失，你想象不到！](https://www.weixin765.com/doc/reeodiqf.html)
+## 预览
 
+在线使用：[https://watermark.yycc.dev](https://watermark.yycc.dev)
 
-## 开发
-
-```
-npm install
-npm start
-open http://localhost:8000/
-```
+![预览](https://cdn.jsdelivr.net/gh/funnyzak/.github/assets/preview.png)
 
 ## Docker部署
 
 ```bash
-# 一键部署
-docker run -d -p 8000:8000 --name watermark funnyzak/watermark
+docker run -d -p 8000:8000 --name watermark funnyzak/watermark:latest
 ```
 
+## Development
 
+推荐使用 Node.js 14+ 版本。
 
+```bash
+# 克隆项目
+git clone git@github.com:funnyzak/watermark.git && cd watermark
+# 安装依赖并启动
+yarn && yarn start
+```
+
+## CopyRight
+
+Powered by [dxcweb/watermark](https://github.com/dxcweb/watermark)
