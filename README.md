@@ -10,7 +10,7 @@
 
 在线使用：[https://watermark.yycc.dev](https://watermark.yycc.dev)
 
-![预览](https://cdn.jsdelivr.net/gh/funnyzak/.github/assets/preview.png)
+![预览](https://cdn.jsdelivr.net/gh/funnyzak/watermark/.github/assets/preview.png)
 
 ## Docker部署
 
