@@ -16,4 +16,12 @@ npm start
 open http://localhost:8000/
 ```
 
+## Docker部署
+
+```bash
+# 一键部署
+docker run -d -p 8000:8000 --name watermark funnyzak/watermark
+```
+
+
 
