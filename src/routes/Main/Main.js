@@ -69,7 +69,7 @@ export default class Main extends React.Component {
               <Button>选择文件</Button>
             </Upload>
             {isExist ? <Button onClick={this.rotate}>旋转</Button> : null}
-            {isExist ? <Button onClick={this.save}>保存</Button> : null}
+            {isExist ? <Button onClick={this.save}>下载</Button> : null}
           </Block>
           <Input
             labelWidth={labelWidth}

@@ -4,8 +4,7 @@
   [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/watermark)](https://hub.docker.com/r/funnyzak/watermark/tags)
   [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/funnyzak/watermark)](https://hub.docker.com/r/funnyzak/watermark/tags)
   
-在线纯前端图片加水印, 拒绝上传保证个人信息安全。
-用来在各种证件上添加 **”仅用于办理XXXX，他用无效。”**，防止证件被他人盗用！
+Web纯前端图片加水印。用来在各种证件上添加 **”仅用于办理XXXX，他用无效。”**，防止证件被他人盗用！
 
 ## Deploy Via Docker
 
@@ -15,7 +14,7 @@ docker run -d -p 3000:80 --name watermark funnyzak/watermark:latest
 
 ## Preview
 
-在线使用：[https://watermark.yycc.dev](https://watermark.yycc.dev)
+在线预览：[https://watermark.yycc.dev](https://watermark.yycc.dev)
 
 ![预览](https://cdn.jsdelivr.net/gh/funnyzak/watermark/.github/assets/preview.png)
 
