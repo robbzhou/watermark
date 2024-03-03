@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "TS_CONFIG_PATHS_PLUGIN=none roadhog server",
     "build": "TS_CONFIG_PATHS_PLUGIN=none roadhog build"

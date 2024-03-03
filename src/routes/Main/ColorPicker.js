@@ -14,7 +14,7 @@ export default class ColorPicker extends React.Component {
     const { displayColorPicker } = this.state;
     const { color, onChange, labelWidth } = this.props;
     return (
-      <div style={{ position: "relative" }}>
+      <>
         <Block vertical="center">
           <div style={{ width: labelWidth }}>字体颜色:</div>
           <div
@@ -36,7 +36,7 @@ export default class ColorPicker extends React.Component {
               </div>
             ]
           : null}
-      </div>
+      </>
     );
   }
 }

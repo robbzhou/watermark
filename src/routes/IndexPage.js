@@ -6,7 +6,7 @@ export default class IndexPage extends React.Component {
     return (
       <div style={{ padding: '30px 15px' }}>
         <div style={{ textAlign: 'center', fontSize: 18, fontWeight: 700, marginBottom: 15 }}>
-          无上传，纯前端图片加水印，保证个人信息安全
+          纯前端图片加水印，保证个人信息安全
         </div>
         <Main />
         <Block
@@ -15,16 +15,16 @@ export default class IndexPage extends React.Component {
           style={{
             padding: '20px 0 0',
           }}>
-          Developed by&nbsp;
+          Published by&nbsp;
+          <a target='_blank' href='https://github.com/funnyzak/watermark' style={{ color: '#1890ff' }}>
+            funnyzak
+          </a>
+          , developed by&nbsp;
           <a
             target='_blank'
             href='https://github.com/dxcweb/watermark'
             style={{ color: '#1890ff' }}>
-            DXCWeb
-          </a>
-          , published by&nbsp;
-          <a target='_blank' href='https://github.com/funnyzak/watermark' style={{ color: '#1890ff' }}>
-            Funnyzak
+            dxcweb
           </a>
         </Block>
       </div>

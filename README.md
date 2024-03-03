@@ -4,7 +4,7 @@
   [![Docker Pulls](https://img.shields.io/docker/pulls/funnyzak/watermark)](https://hub.docker.com/r/funnyzak/watermark/tags)
   [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/funnyzak/watermark)](https://hub.docker.com/r/funnyzak/watermark/tags)
   
-Web纯前端图片加水印。用来在各种证件上添加 **”仅用于办理XXXX，他用无效。”**，防止证件被他人盗用！
+Web纯前端图片加水印。用来在各种证件上添加 **“仅用于办理XXXX，他用无效。”**，防止证件被他人盗用！
 
 ## Deploy Via Docker
 
