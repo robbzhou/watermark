@@ -1,6 +1,7 @@
 import Block from 'dxc-flex';
 import React from 'react';
 import Main from './Main/Main';
+import DonationItem from './Donation/DonationItem';
 export default class IndexPage extends React.Component {
   render() {
     return (
@@ -9,7 +10,7 @@ export default class IndexPage extends React.Component {
           纯前端图片加水印，保证个人信息安全
         </div>
         <Main />
-        <Block
+        {/* <Block
           vertical='center'
           horizontal='center'
           style={{
@@ -26,7 +27,7 @@ export default class IndexPage extends React.Component {
             style={{ color: '#1890ff' }}>
             dxcweb
           </a>
-        </Block>
+        </Block> */}
       </div>
     );
   }
